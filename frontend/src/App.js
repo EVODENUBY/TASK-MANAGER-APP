@@ -32,7 +32,7 @@ function App() {
         setTasks(data);
         setError(null);
       } catch (err) {
-        setError('Failed to load tasks. Please try again later.');
+        setError('Failed to load The tasks. Please try again later.');
         console.error(err);
       } finally {
         setIsLoading(false);
@@ -64,7 +64,7 @@ function App() {
       setNewTask({ title: '', description: '' });
       setError(null);
     } catch (err) {
-      setError('Failed to create task. Please try again.');
+      setError('Failed to create task.');
       console.error(err);
     }
   };
